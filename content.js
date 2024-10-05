@@ -3,7 +3,7 @@ function speedUpAds() {
     const video = document.querySelector('video');
     if (video && video.playbackRate !== 16) {
         video.playbackRate = 16;
-        console.log("Przyspieszono reklamę.");
+        console.log("Ad sped up");
     }
 }
 
