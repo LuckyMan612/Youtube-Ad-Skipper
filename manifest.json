@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Ad Speed Booster",
   "version": "1.0",
-  "description": "Automatycznie przyspiesza reklamy na YouTube.",
+  "description": "Automatically accelerates YouTube ads.",
   "permissions": [
     "tabs",
     "activeTab",
