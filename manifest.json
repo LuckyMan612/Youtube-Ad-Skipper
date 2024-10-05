@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Ad Speed Booster",
+  "version": "1.0",
+  "description": "Automatycznie przyspiesza reklamy na YouTube.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  }
+}
